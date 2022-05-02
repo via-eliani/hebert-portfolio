@@ -1,0 +1,54 @@
+.vertical-menu {
+    width: 148px;
+    position: fixed;
+    font-family: 'Antonio', sans-serif;
+    margin: 0px;
+    /* Set a width if you like */
+}
+
+.vertical-menu a {
+    /*background-color: #eee;*/
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    padding: 10px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    font-weight: bold;
+    font-family: 'Antonio', sans-serif;
+    /* Dark grey background on mouse-over */
+}
+
+/* not using
+.vertical-menu a.active {
+    background-color: #04AA6D;
+    /* Add a green color to the "active/current" link
+    color: white;
+}*/
+.pfp{
+    display: block;
+    max-width: 400px;
+    justify-content: center;
+}
+
+.container{
+    margin-left: 148px;
+}
+
+.bio{ 
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.iPics{
+    display: blockl
+}
+footer{
+    margin-top:1000px;
+}
