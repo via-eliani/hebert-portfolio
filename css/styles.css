@@ -13,7 +13,7 @@
     /* Black text color */
     display: block;
     /* Make the links appear below each other */
-    padding: 10px;
+    padding: 7px;
     /* Add some padding */
     text-decoration: none;
     /* Remove underline from links */
@@ -37,14 +37,16 @@
     justify-content: center;
 }
 
-.container{
-    margin-left: 148px;
+.hero{
+    margin:0;
+    padding: 0;
+    max-height: 300px;
 }
 
 .bio{ 
-    margin-top: 100px;
-    margin-left: 400px;
-    margin-right: 400px;
+    display: flex;
+    margin-left:150px;
+    max-width: 1000px;
 }
 .iPics{
     display: blockl
