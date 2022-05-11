@@ -40,7 +40,6 @@
 .hero{
     margin:0;
     padding: 0;
-    max-height: 300px;
     min-height: 300px;
 }
 
@@ -51,7 +50,6 @@
     margin-bottom: 0;
     max-width: auto;
     min-height:300px;
-    max-height: 300px;
 }
 .interior{
  margin: 0;
