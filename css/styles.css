@@ -13,7 +13,7 @@
     /* Black text color */
     display: block;
     /* Make the links appear below each other */
-    padding: 7px;
+    padding: 5px;
     /* Add some padding */
     text-decoration: none;
     /* Remove underline from links */
@@ -41,15 +41,38 @@
     margin:0;
     padding: 0;
     max-height: 300px;
+    min-height: 300px;
 }
 
 .bio{ 
     display: flex;
     margin-left:150px;
-    max-width: 1000px;
+    margin-right: 0;
+    margin-bottom: 0;
+    max-width: auto;
+    min-height:300px;
+    max-height: 300px;
 }
-.iPics{
-    display: blockl
+.interior{
+ margin: 0;
+}
+
+@media(max-width: 576px){
+    .vertical-menu{
+        display:none;
+    }
+    .bio{
+        margin:0;
+    }
+    .interior{
+        margin:0;
+    }
+}
+
+@media (min-width: 576px) {
+    img {
+            min-height: 240px;
+        }
 }
 footer{
     margin-top:1000px;
