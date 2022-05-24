@@ -1,7 +1,10 @@
+:root{
+    --secondary-font: 'Antonio', sans-serif;
+}
 .vertical-menu {
     width: 148px;
     position: fixed;
-    font-family: 'Antonio', sans-serif;
+    font-family: var(--secondary-font);
     margin: 0px;
     /* Set a width if you like */
 }
@@ -21,7 +24,7 @@
 
 .vertical-menu a:hover {
     font-weight: bold;
-    font-family: 'Antonio', sans-serif;
+    font-family: var(--secondary-font);
     /* Dark grey background on mouse-over */
 }
 
@@ -50,6 +53,9 @@
     margin-bottom: 0;
     max-width: auto;
     min-height:300px;
+}
+h1{
+    font-family: var(--secondary-font);
 }
 .interior{
  margin-left: 115px;
