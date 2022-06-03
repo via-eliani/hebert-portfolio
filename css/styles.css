@@ -23,16 +23,14 @@
 .column{
     padding: 0;
 }
-.firstRow{
-    padding-left: 148px;
-}
 .hero {
-    padding: 50px, 100px, 0px, 0px;
     max-width: 100%;
     min-height: 300px;
 }
 h1 {
     font-family: var(--secondary-font);
+    justify-content: end;
+    margin-right: 10px;
 }
 
 .interior {
@@ -104,7 +102,7 @@ img {
 .iPhotos {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 10px 0 148px;
+    padding: 0 0 0 148px;
 }
 
 /* Create three equal columns that sits next to each other */
@@ -125,6 +123,23 @@ img {
     .column {
         flex: 100%;
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .vertical-menu{
+        display: none;
+    }
+    .bio{
+        margin: 0 10px 0 10px;
+        padding: 0;
+    }
+    .iPhotos{
+        margin: 0 10px 0 10px;
+        padding: 0;
+    }
+    h1{
+        justify-content: center;
     }
 }
 
