@@ -1,6 +1,17 @@
 :root{
     --secondary-font: 'Antonio', sans-serif;
 }
+
+/*.header{
+    max-width: auto;
+    max-height: 100px;
+    background: #EDF0F1;
+}
+.invisible{
+    color: #EDF0F1;
+    margin: 0;
+}*/
+
 .vertical-menu {
     width: 148px;
     position: fixed;
@@ -52,7 +63,7 @@
     margin-right: 0;
     margin-bottom: 0;
     max-width: auto;
-    min-height:300px;
+   /* min-height:300px;*/
 }
 h1{
     font-family: var(--secondary-font);
