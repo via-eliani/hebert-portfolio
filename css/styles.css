@@ -14,16 +14,17 @@
 
 .bio {
     display: flex;
-    margin-left: 150px;
-    margin-right: 0;
-    margin-bottom: 0;
+    margin: 0 0 0 150px;
+    padding: 10px;
     max-width: auto;
+    text-align: justify;
     /* min-height:300px;*/
 }
 .column{
     padding: 0;
 }
 .hero {
+
     max-width: 100%;
     min-height: 300px;
 }
@@ -32,7 +33,9 @@ h1 {
     justify-content: end;
     margin-right: 10px;
 }
-
+.contact{
+    max-width: 100%;
+}
 .interior {
     max-width: 100%;
 }
@@ -45,11 +48,15 @@ img {
     max-width: 400px;
     justify-content: center;
 }
+ul{
+    list-style: none;
+}
 .vertical-menu {
     width: 148px;
     position: fixed;
     font-family: var(--secondary-font);
     margin: 0px;
+    padding: 0;
     /* Set a width if you like */
 }
 .vertical-menu a {
@@ -69,33 +76,6 @@ img {
     font-family: var(--secondary-font);
     /* Dark grey background on mouse-over */
 }
-
-/* not using
-.vertical-menu a.active {
-    background-color: #04AA6D;
-    /* Add a green color to the "active/current" link
-    color: white;
-}*/
-
-/*
-@media(max-width: 576px){
-    .vertical-menu{
-        display:none;
-    }
-    .bio{
-        margin:0;
-    }
-    .interior{
-        margin:0;
-    }
-}*/
-
-/*@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-}*/
 
 /* Test CSS*/
 
